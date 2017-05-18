@@ -14,10 +14,23 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Main3Activity.class);
         startActivity(intent);
     }
+    public void main8click(View view) {
+        Intent intent = new Intent(this, Main5Activity.class);
+        startActivity(intent);
+    }
+    public void main10click(View view) {
+        Intent intent = new Intent(this, Main6Activity.class);
+        startActivity(intent);
+    }
+    public void main11click(View view) {
+        Intent intent = new Intent(this, Main4Activity.class);
+        startActivity(intent);
+    }
 
 
 
-        @Override
+
+    @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);

@@ -7,12 +7,13 @@
     tools:context="com.example.appairbnb.Main2Activity">
 
     <LinearLayout
-        android:layout_width="400dp"
-        android:layout_height="613dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="636dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@android:color/background_light"
         android:orientation="vertical"
         android:weightSum="1"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,19 +21,14 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="1dp">
 
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="128dp"
             android:layout_weight="0.91">
-
-            <ImageView
-                android:id="@+id/imageView17"
-                android:layout_width="356dp"
-                android:layout_height="wrap_content"
-                android:scaleType="centerCrop"
-                app:srcCompat="@drawable/drawable29" />
 
             <ImageButton
                 android:id="@+id/imageButton13"
@@ -41,12 +37,20 @@
                 android:background="@android:color/transparent"
                 android:onClick="main1click"
                 app:srcCompat="?android:attr/homeAsUpIndicator" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/drawable29" />
         </FrameLayout>
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:text="Casa do Rio- Beach                                                                    and Mountains"
@@ -61,11 +65,22 @@
 
             <TextView
                 android:id="@+id/textView8"
-                android:layout_width="220dp"
-                android:layout_height="wrap_content"
+                android:layout_width="106dp"
+                android:layout_height="match_parent"
                 android:paddingLeft="15dp"
                 android:paddingTop="10dp"
-                android:text="Entire place                                                                           Hosted by Rui and Rosali"
+                android:text="Entire place                                                                           Hosted by "
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="96dp"
+                android:layout_height="match_parent"
+                android:paddingBottom="0dp"
+                android:paddingLeft="0dp"
+                android:paddingTop="32dp"
+                android:text="Rui &amp; Rusali"
+                android:textColor="@android:color/holo_blue_bright"
                 android:textSize="17sp" />
 
             <ImageView
@@ -83,10 +98,12 @@
 
             <ImageView
                 android:id="@+id/imageView8"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="5dp"
+                android:paddingRight="60dp"
                 android:paddingTop="0dp"
+                android:scaleType="matrix"
                 app:srcCompat="@drawable/drawable31" />
         </LinearLayout>
 
@@ -111,6 +128,7 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
                     android:text="$73 per night"
                     android:textSize="18sp"
                     android:textStyle="bold" />

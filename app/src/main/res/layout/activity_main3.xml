@@ -9,15 +9,13 @@
     tools:context="com.example.appairbnb.Main3Activity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginRight="0dp"
-        android:layout_marginTop="0dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/background_light"
         android:orientation="vertical"
         android:weightSum="1"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -103,14 +101,15 @@
 
             <ImageButton
                 android:id="@+id/imageButton8"
-                android:layout_width="wrap_content"
+                android:layout_width="72dp"
                 android:layout_height="match_parent"
                 android:background="@android:color/background_light"
+                android:onClick="main12click"
                 app:srcCompat="@drawable/drawable9" />
 
             <ImageButton
                 android:id="@+id/imageButton9"
-                android:layout_width="wrap_content"
+                android:layout_width="72dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@android:color/background_light"
@@ -119,23 +118,24 @@
 
             <ImageButton
                 android:id="@+id/imageButton10"
-                android:layout_width="wrap_content"
+                android:layout_width="72dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@android:color/background_light"
+                android:onClick="main3click"
                 app:srcCompat="@drawable/drawable25" />
 
             <ImageButton
                 android:id="@+id/imageButton11"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
                 android:background="@android:color/background_light"
-                app:srcCompat="@drawable/drawable26" />
+                android:paddingTop="5dp"
+                app:srcCompat="@drawable/drawablehome47" />
 
             <ImageButton
                 android:id="@+id/imageButton12"
-                android:layout_width="wrap_content"
+                android:layout_width="72dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@android:color/background_light"
